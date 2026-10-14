@@ -1,0 +1,14 @@
+# The virtual environment is rebuilt from requirements.txt, so it never goes on GitHub
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+
+# PGA TOUR data is for personal study only and is not redistributed (see README > Limitations).
+# Re-create it with scripts/download_pga_stats.py and scripts/build_tidy_csv.py.
+data/raw/pgatour/
+data/clean/*.csv
+
+# Working copies of charts from the step-by-step notebooks (final charts are figures/fig*.png)
+figures/01_*.png
+figures/02_*.png

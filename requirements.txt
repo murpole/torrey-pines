@@ -1,0 +1,12 @@
+# Data handling
+pandas
+numpy
+# Regression (OLS)
+statsmodels
+# Charts
+matplotlib
+seaborn
+# Notebooks
+jupyter
+# Downloading data from the web
+requests
